@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started"
+      - echo "Building Project2-CICD application"
+      - ls -la
+
+artifacts:
+  files:
+    - index.html
