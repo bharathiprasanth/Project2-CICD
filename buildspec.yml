@@ -1,12 +1,14 @@
+
 version: 0.2
 
 phases:
   build:
     commands:
-      - echo "Build started"
       - echo "Building Project2-CICD application"
       - ls -la
+      - ls -la scripts
 
 artifacts:
   files:
-    - index.html
+    - '**/*'
+  discard-paths: no
